@@ -1,0 +1,53 @@
+* {
+    background-color: #ffffff;
+}
+
+h1,
+p,
+input {
+    color: #576CBC;
+    font-family: 'Lato', sans-serif;
+}
+
+#speechContainer {
+    margin: 20px;
+    text-align: center;
+}
+
+#submitButton {
+    border: none;
+    padding: 8px 20px;
+    margin-top: 15px;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.speech-box {
+    width: 1000px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    min-height: 200px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #0275d8;
+    padding: 10px;
+}
